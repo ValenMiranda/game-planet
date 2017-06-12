@@ -2,11 +2,12 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-
+/*FOOTER*/
 footer{
 	background-color: #1E1E1E;
 }
 
+/*SUB-FOOTER*/
 #contacto-sub{
 	color: #fff;
 	padding: 20px 50px;
@@ -30,8 +31,12 @@ footer{
 #contacto-sub ul li a:hover{
 	color: #B30017;
 }
-.imagenes-sub{
+/*lOGOS-SUB*/
+.logos-sub{
 	background-color: #fff;
 }
+
 .imagenes-sub img{
-width: 12%;	}
+	width: 15%;
+	padding: 5px 10px;	
+}
