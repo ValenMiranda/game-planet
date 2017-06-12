@@ -6,3 +6,32 @@ body{
 footer{
 	background-color: #1E1E1E;
 }
+
+#contacto-sub{
+	color: #fff;
+	padding: 20px 50px;
+	text-align: left;
+}
+#contacto-sub h2{
+	margin-bottom: 20px;
+}
+#contacto-sub ul li a{
+	color: #fff;
+	font-weight: 300;
+	text-align: left;
+	text-decoration: none;
+	margin-left: -40px;
+	font-size: 12px;
+}
+#contacto-sub ul{
+	list-style: none;
+}
+
+#contacto-sub ul li a:hover{
+	color: #B30017;
+}
+.imagenes-sub{
+	background-color: #fff;
+}
+.imagenes-sub img{
+width: 12%;	}
