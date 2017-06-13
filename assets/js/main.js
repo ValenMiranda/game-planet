@@ -1,3 +1,14 @@
+
+var navi = document.getElementById("navegadorId");
+window.addEventListener("scroll", function(){
+    
+    if (document.body.scrollTop > 80) {
+        navi.classList.add('cambiaNav');
+    } else {
+        navi.classList.remove('cambiaNav');
+    }
+});
+
 var nombre = document.getElementById("name");
 var email = document.getElementById("email");
 var mensaje = document.getElementById("message");
@@ -33,3 +44,4 @@ document.getElementById("btn-enviar").addEventListener("click", function(val){
 		}
 
 });
+
