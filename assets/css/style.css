@@ -33,6 +33,24 @@ video#video-vertical {
     background-repeat: no-repeat;
 }
 
+/*Tienda*/
+.tienda h2{
+	font-family: 'Open Sanz';
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.tienda{
+	padding: 50px;
+}
+.tienda .btn-info{
+	background-color: #B30017;
+	border: solid #B30017;
+}
+.tienda .btn-info:hover{
+	background-color: #B30017;
+	border: solid #B30017;
+  
+  
 /*footer*/
 footer{
 	background-color: #222222;
@@ -40,8 +58,6 @@ footer{
 	width: 100%;
 	height: auto;
 }
-
-
 form{
 	margin: 20px;
     margin-right: 100px;
