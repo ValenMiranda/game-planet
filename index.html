@@ -48,13 +48,16 @@
 	    	</div>
     	</div>
 	</nav>
-
-
 <!--INICIO HEADER FONDO VIDEO -->
-	<header>
-		<video>
-			<source src="assets/img/XXXX.mp4" type="video/mp4">
-		</video>
+	<header class="container-fluid videos">
+		<div class="col-lg-12 col-md-12">
+			<video id="video-horizontal" class="hidden-sm hidden-xs" video autobuffer autoplay loop muted>
+				<source src="assets/img/video/horizontal.mp4" type="video/mp4">
+			</video>
+			<video id="video-vertical" class="hidden-lg hidden-md" video autobuffer autoplay loop muted>
+				<source src="assets/img/video/vertical.mp4" type="video/mp4">
+			</video>
+		</div>	
 	</header>
 <!--SECCION DESTACADOS/CARRUSEL-->
 	<section class="container-fluid">
@@ -113,7 +116,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-4">
 					<img src="" class="img-responsive">
-					<h6><b>Ninento Switch</b></h6>
+					<h6><b>Nintendo Switch</b></h6>
 					<h1><sup>$</sup>344.999</h1>
 					<button type="button" class="btn btn-default btn-info" data-toggle="modal" data-target="#myModal1"><b>ver +</b></button>
 					<!-- Modal -->
