@@ -1,0 +1,16 @@
+.less{
+	padding-right: 290px;
+}
+.borde{
+	padding: 10px;
+}
+
+.divespecial{
+	padding: 5px;
+	background-color: #cce2ea;
+	font-size: 1em;
+	width: auto;
+	font-weight: 700;
+	border-radius: 5px;
+	
+}
