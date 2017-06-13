@@ -49,10 +49,11 @@ label{
 
 .boxmap{
 	padding-right: 6px;
+	text-align: center;
 }
 
 iframe{
-	margin-right: 60px;
+	
 }
 
 .showInput{
