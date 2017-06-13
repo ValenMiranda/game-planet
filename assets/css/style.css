@@ -1,0 +1,43 @@
+*{
+	font-family: 'Open-sans', sans-serif;
+	list-style: none;
+}
+
+
+
+
+/*footer*/
+footer{
+	background-color: #222222;
+	color: #fff;
+	width: 100%;
+	height: auto;
+}
+
+
+form{
+	margin: 20px;
+    margin-right: 100px;
+}
+
+input.boxtext{
+	height: 77px;
+}
+
+.form-control{
+	width: 85%
+}
+
+label{
+	font-weight: 500;
+	margin-top: 7px;
+}
+.boxform{
+	margin-right: 6px;
+}
+
+.titleform{
+	margin-top: 44px;
+	margin-bottom: 25px;
+}
+
