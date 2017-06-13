@@ -54,3 +54,10 @@ label{
 iframe{
 	margin-right: 60px;
 }
+
+.showInput{
+	background-image: url(../img/varias/error.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right;
+}
