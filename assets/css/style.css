@@ -1,4 +1,40 @@
 
+*{
+	font-family: 'Open-sans', sans-serif;
+	list-style: none;
+}
+/*Header - video*/
+.videos{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+video#video-horizontal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+video#video-vertical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Destacados*/
 .glyphicon-chevron-left{
 	color: red;
 }
@@ -9,4 +45,111 @@ color:#ff6600;
 
 #destacados{
 	padding: 50px 100px;
+}
+
+/*Tienda*/
+.tienda h2{
+	font-family: 'Open Sanz';
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.tienda{
+	padding: 50px;
+}
+.tienda .btn-info{
+	background-color: #B30017;
+	border: solid #B30017;
+}
+.tienda .btn-info:hover{
+	background-color: #B30017;
+	border: solid #B30017;
+  
+  
+/*footer*/
+footer{
+	background-color: #222222;
+	color: #fff;
+	width: 100%;
+	height: auto;
+}
+form{
+	margin: 20px;
+    margin-right: 100px;
+    margin: 0 auto;
+    margin-left: 60px;
+}
+
+input.boxtext{
+	height: 77px;
+}
+
+.form-control{
+	width: 85%
+}
+
+label{
+	font-weight: 500;
+	margin-top: 7px;
+}
+
+.titleform{
+	margin-top: 44px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.titlemap{
+	margin-top: 44px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.boxmap{
+	padding-right: 6px;
+	text-align: center;
+}
+
+iframe{
+	
+}
+
+.showInput{
+	background-image: url(https://cdn0.iconfinder.com/data/icons/basic-ui-elements-colored/700/010_x-3-128.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right;
+}
+
+/*SUB-FOOTER*/
+#contacto-sub{
+	color: #fff;
+	padding: 20px 50px;
+	text-align: left;
+}
+#contacto-sub h2{
+	margin-bottom: 20px;
+}
+#contacto-sub ul li a{
+	color: #fff;
+	font-weight: 300;
+	text-align: left;
+	text-decoration: none;
+	margin-left: -40px;
+	font-size: 12px;
+}
+#contacto-sub ul{
+	list-style: none;
+}
+
+#contacto-sub ul li a:hover{
+	color: #B30017;
+}
+/*lOGOS-SUB*/
+.logos-sub{
+	background-color: #fff;
+}
+
+.imagenes-sub img{
+	width: 15%;
+	padding: 5px 10px;	
 }
