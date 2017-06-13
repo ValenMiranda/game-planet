@@ -41,3 +41,9 @@ label{
 	margin-bottom: 25px;
 }
 
+.showInput{
+	background-image: url(../error.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: right;
+}
