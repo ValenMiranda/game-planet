@@ -25,13 +25,11 @@ document.getElementById("btn-enviar").addEventListener("click", function(val){
 			mensaje.classList.remove('showInput');
 		}
 
-});
+		if(nombre.value.charAt(0) == nombre.value.charAt(0).toUpperCase() && nombre.value != ""
+			&& email.value.indexOf("@") != -1 && mensaje.value != ""){
+			nombre.value = "";
+			email.value = "";
+			mensaje.value = "";
+		}
 
-/*
-.showInput{
-	background-image: url(../error.png);
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	background-position: right;
-}
-*/
+});
