@@ -1,3 +1,4 @@
+
 *{
 	font-family: 'Open-sans', sans-serif;
 	list-style: none;
@@ -31,6 +32,19 @@ video#video-vertical {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*Destacados*/
+.glyphicon-chevron-left{
+	color: red;
+}
+
+.glyphicon-chevron-right{
+color:#ff6600;
+}
+
+#destacados{
+	padding: 50px 100px;
 }
 
 /*Tienda*/
@@ -139,4 +153,3 @@ iframe{
 	width: 15%;
 	padding: 5px 10px;	
 }
-
