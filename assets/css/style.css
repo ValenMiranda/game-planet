@@ -18,6 +18,8 @@ footer{
 form{
 	margin: 20px;
     margin-right: 100px;
+    margin: 0 auto;
+    margin-left: 60px;
 }
 
 input.boxtext{
@@ -32,12 +34,23 @@ label{
 	font-weight: 500;
 	margin-top: 7px;
 }
-.boxform{
-	margin-right: 6px;
-}
 
 .titleform{
 	margin-top: 44px;
 	margin-bottom: 25px;
+	text-align: center;
 }
 
+.titlemap{
+	margin-top: 44px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.boxmap{
+	padding-right: 6px;
+}
+
+iframe{
+	margin-right: 60px;
+}
