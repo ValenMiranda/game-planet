@@ -1,3 +1,4 @@
+
 *{
 	font-family: 'Open-sans', sans-serif;
 	list-style: none;
@@ -61,4 +62,38 @@ iframe{
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	background-position: right;
+}
+
+/*SUB-FOOTER*/
+#contacto-sub{
+	color: #fff;
+	padding: 20px 50px;
+	text-align: left;
+}
+#contacto-sub h2{
+	margin-bottom: 20px;
+}
+#contacto-sub ul li a{
+	color: #fff;
+	font-weight: 300;
+	text-align: left;
+	text-decoration: none;
+	margin-left: -40px;
+	font-size: 12px;
+}
+#contacto-sub ul{
+	list-style: none;
+}
+
+#contacto-sub ul li a:hover{
+	color: #B30017;
+}
+/*lOGOS-SUB*/
+.logos-sub{
+	background-color: #fff;
+}
+
+.imagenes-sub img{
+	width: 15%;
+	padding: 5px 10px;	
 }
