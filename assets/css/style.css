@@ -1,0 +1,33 @@
+.navbar{
+	background-color: rgba(30,30,30,0.5);
+}
+
+.logo{
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.nav{
+	margin-right: 10px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	background: #888888;
+    color: white;
+}
+
+.cambiaNav{
+    background-color: rgb(30,30,30);
+}
+
+.cambiaNav a{
+    color: white;
+}
+
+.cambiaNav a:hover{
+    color: #B30017; /*rojo*/
+}
