@@ -98,7 +98,7 @@ color:#ff6600;
 .tienda .btn-info:hover{
 	background-color: #B30017;
 	border: solid #B30017;
-  
+ } 
   
 /*footer*/
 footer{
@@ -119,7 +119,7 @@ input.boxtext{
 }
 
 .form-control{
-	width: 85%
+	width: 85%;
 }
 
 label{
@@ -144,9 +144,6 @@ label{
 	text-align: center;
 }
 
-iframe{
-	
-}
 
 .showInput{
 	background-image: url(https://cdn0.iconfinder.com/data/icons/basic-ui-elements-colored/700/010_x-3-128.png);
