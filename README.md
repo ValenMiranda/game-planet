@@ -15,5 +15,5 @@ Debe tener las siguientes páginas:
 
 #### Link de trello [aquí](https://trello.com/b/fQWmrh6i/proyecto-maquetado)
 
-#### Para visitar el sitio operativo [aquí](https:ValenMiranda.github.io/game-planet)
+#### Para visitar el sitio operativo [aquí](https://ValenMiranda.github.io/game-planet)
 
