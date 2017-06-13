@@ -12,5 +12,8 @@
 	width: auto;
 	font-weight: 700;
 	border-radius: 5px;
-	
+}
+
+.tamanoimg{
+	width: 40%;
 }
