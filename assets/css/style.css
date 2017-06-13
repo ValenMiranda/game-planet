@@ -1,0 +1,29 @@
+.videos{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+video#video-horizontal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+video#video-vertical {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
