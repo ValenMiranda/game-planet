@@ -1,6 +1,11 @@
+*{
+	font-family: 'Open-sans', sans-serif;
+	list-style: none;
+}
 
 .navbar{
 	background-color: rgba(30,30,30,0.5);
+	border:none;
 }
 
 .logo{
@@ -33,11 +38,6 @@
     color: #B30017; /*rojo*/
 }
 
-
-*{
-	font-family: 'Open-sans', sans-serif;
-	list-style: none;
-}
 /*Header - video*/
 .videos{
     padding-right: 0px;
@@ -45,8 +45,16 @@
     margin-right: 0px;
     margin-left: 0px;
 }
+
+.videos2{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 video#video-horizontal {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -58,7 +66,7 @@ video#video-horizontal {
     padding: 0;
 }
 video#video-vertical {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -84,7 +92,6 @@ color:#ff6600;
 
 /*Tienda*/
 .tienda h2{
-	font-family: 'Open Sanz';
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -131,12 +138,16 @@ label{
 	margin-top: 44px;
 	margin-bottom: 25px;
 	text-align: center;
+	font-weight: 300;
+	font-size: 30px;
 }
 
 .titlemap{
 	margin-top: 44px;
 	margin-bottom: 25px;
 	text-align: center;
+	font-weight: 300;
+	font-size: 30px;
 }
 
 .boxmap{
